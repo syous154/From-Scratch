@@ -23,9 +23,14 @@ EfficientNet 모델 (B0-B7)은 PyTorch를 사용하여 `model.ipynb` 노트북 �
 <img src="https://github.com/syous154/From-Scratch/assets/56266206/21bba1ca-3c29-4e29-ac31-573af7ddab11" width="400" height="400"/>
 <img src="https://github.com/syous154/From-Scratch/assets/56266206/91200292-b1b8-4208-9364-91ee011e4db6" width="400" height="400"/>
 
-이 모델을 CIFAR-10 데이터 셋과 CIFAR-100 데이터 셋을 이용해 torchvision 패키지에 있는 EfficientNet과 비교해보았습니다.
+
+파라미터 수를 보면 논문에 나온 값과 동일한 것을 알 수 있었습니다.
+
+
+이 모델을 CIFAR-10 데이터 셋과 CIFAR-100 데이터 셋을 이용해 학습해보았습니다.
 훈련 환경( epoch = 100, loss = crossEntrophy, optimizer = AdamW, lr = 0.001 )
-(좌측 : model.ipynb의 모델, 우측 : torchvision 패키지 내의 모델)
+
+
 
 EfficientNet-B1 (CIFAR-10)
 
@@ -42,3 +47,6 @@ EfficinentNet-B5 (CIFAR-100)
 
 <img width="681" alt="mineB5" src="https://github.com/syous154/From-Scratch/assets/56266206/a688d46e-93ea-4049-a7fb-87a5963bb501">
 
+
+학습이 잘되고 모델의 크기 커질 수록 정확도도 증가하는 것을 볼 수 있었습니다.
+개인적으로 torchvision 패키지 내에 있는 EfficientNet과 정확도를 비교해 보았을 때 거의 유사한 결과를 얻었습니다.
