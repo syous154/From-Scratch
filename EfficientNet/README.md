@@ -18,6 +18,8 @@ EfficientNet 모델 (B0-B7)은 PyTorch를 사용하여 `model.ipynb` 노트북 �
 
 ## 결과
 이 모델 EfficientNet 논문에 있는 모델의 파라미터 수를 비교해 보았습니다.
+
+
 <img src="https://github.com/syous154/From-Scratch/assets/56266206/21bba1ca-3c29-4e29-ac31-573af7ddab11" width="400" height="400"/>
 <img src="https://github.com/syous154/From-Scratch/assets/56266206/91200292-b1b8-4208-9364-91ee011e4db6" width="400" height="400"/>
 
