@@ -24,6 +24,14 @@ EfficientNet 모델 (B0-B7)은 PyTorch를 사용하여 `model.ipynb` 노트북 �
 <img src="https://github.com/syous154/From-Scratch/assets/56266206/91200292-b1b8-4208-9364-91ee011e4db6" width="400" height="400"/>
 
 이 모델을 CIFAR-10 데이터 셋과 CIFAR-100 데이터 셋을 이용해 torchvision 패키지에 있는 EfficientNet과 비교해보았습니다.
+훈련 환경( epoch = 100, loss = crossEntrophy, optimizer = AdamW, lr = 0.001 )
+(좌측 : model.ipynb의 모델, 우측 : torchvision 패키지 내의 모델)
+
+EfficientNet-B1
+![B1](https://github.com/syous154/From-Scratch/assets/56266206/f04eed95-47bd-4837-b791-e56f5358fd74)
+
+EfficientNet-B3
 
 
+EfficinentNet-B5
 
