@@ -18,7 +18,7 @@ EfficientNet 모델 (B0-B7)은 PyTorch를 사용하여 `model.ipynb` 노트북 �
 
 ## 결과
 이 모델 EfficientNet 논문에 있는 모델의 파라미터 수를 비교해 보았습니다.
-!("C:\Users\mohan\Pictures\Screenshots\스크린샷 2024-03-14 110010.png")
+!(https://github.com/syous154/From-Scratch/assets/56266206/21bba1ca-3c29-4e29-ac31-573af7ddab11)
 
 이 모델을 CIFAR-10 데이터 셋과 CIFAR-100 데이터 셋을 이용해 torchvision 패키지에 있는 EfficientNet과 비교해보았습니다.
 
