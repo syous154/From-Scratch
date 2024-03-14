@@ -28,11 +28,17 @@ EfficientNet 모델 (B0-B7)은 PyTorch를 사용하여 `model.ipynb` 노트북 �
 (좌측 : model.ipynb의 모델, 우측 : torchvision 패키지 내의 모델)
 
 EfficientNet-B1 (CIFAR-10)
+
+
 ![mineB1](https://github.com/syous154/From-Scratch/assets/56266206/51441cc2-dc69-434e-88fc-b815282b64a0)
 
 EfficientNet-B3 (CIFAR-10)
+
+
 ![mineB3](https://github.com/syous154/From-Scratch/assets/56266206/4ca03a29-6bcb-4819-9e8d-129a91fc127d)
 
 EfficinentNet-B5 (CIFAR-100)
+
+
 <img width="681" alt="mineB5" src="https://github.com/syous154/From-Scratch/assets/56266206/a688d46e-93ea-4049-a7fb-87a5963bb501">
 
