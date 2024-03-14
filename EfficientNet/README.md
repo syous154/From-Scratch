@@ -57,7 +57,6 @@ EfficinentNet-B5 (CIFAR-100)
 <img width="681" alt="mineB5" src="https://github.com/syous154/From-Scratch/assets/56266206/a688d46e-93ea-4049-a7fb-87a5963bb501">
 
 
-
-
 학습이 잘되고 모델의 크기 커질 수록 정확도도 증가하는 것을 볼 수 있었습니다.
+
 개인적으로 torchvision 패키지 내에 있는 EfficientNet과 정확도를 비교해 보았을 때 거의 유사한 결과를 얻었습니다.
